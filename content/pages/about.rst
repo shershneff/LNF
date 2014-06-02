@@ -2,10 +2,9 @@
 #############
 
 
-:date: 2014-05-27 22:22
-:author: antony 
-:url: pages/about.html 
-:save_as: pages/about.html
+:order: 1
+:save_as: index.html
+:slug: about
 
 Основной целью настоящего проекта является создание на базе НГУ Лаборатории 
 неравновесных течений и аэротермодинамики космических аппаратов под руководством 
@@ -31,7 +30,10 @@
  :alt: ITAM logo
  :width: 200 px
  :align: right
-
+.. image:: {filename}/images/usc-logo.png
+ :alt: USC logo
+ :width: 250 px
+ :align: right 
 
 
 

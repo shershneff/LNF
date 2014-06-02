@@ -1,16 +1,11 @@
 Разработки
-##########
+----------
 
 
-:date: 2014-05-27 22:22
-:author: antony
-:url: pages/products.html 
-:save_as: pages/products.html 
-:category: products
+:order: 5
+:slug: products
 
-.. RAMSES <products/ramses.html>
-
-- Система моделирования обтекания спутников разреженным газом **RAMSES** (Rarefied Aerodymanics Modeling System for Earth Satellites)
+- `RAMSES <products/ramses.html>`_ (Rarefied Aerodymanics Modeling System for Earth Satellites): cистема моделирования обтекания спутников разреженным газом  
 
 
 - Система анализа негравитационных ускорений спутников от воздействия солнечного излучения и аэродинамических сил **ANGARA**
@@ -28,16 +23,16 @@
 - **SMILE_cu**
 
 
-- Унифицированная система расчета аэродинамики спутников **RuSat** (Rapid Unified Satellite Aerodynamic Tool)
+- `RUSAT <products/rusat.html>`_ (Rapid Unified Satellite Aerodynamic Tool): Унифицированная система расчета аэродинамики спутников.
 
 
-- Набор солверов для решения нестационарных сжимаемых уравнений Навье- Стокса **CFS** на основе схем сквозного счёта высокого порядка точности (TVD и WENO) 
+- Набор солверов **CFS** для решения нестационарных сжимаемых уравнений Навье-Стокса  на основе схем сквозного счёта высокого порядка точности (TVD и WENO) 
 
 
 - Набор солверов для решения модельных кинетических уравнений 
 
 
-- солвер для решения нелинейного уравнения Больцмана
+- Солвер для решения нелинейного уравнения Больцмана
 
 
 - **hCFS**

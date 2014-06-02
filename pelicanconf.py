@@ -29,9 +29,30 @@ TRANSLATION_FEED_ATOM = None
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["images","pdf","mytheme"]
+#THEME = "/home/Antony/Site/pelican-themes-master/Just-Read"
+THEME = "mytheme"
+
+ARTICLE_DIR = 'news'
+ARTICLE_URL = 'news/{slug}.html'
+ARTICLE_SAVE_AS = 'news/{slug}.html'
 
 
-THEME = "/home/Antony/Site/pelican-themes-master/Just-Read"
+PAGE_DIR = 'pages'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
+AUTHOR_SAVE_AS = False
+CATEGORY_SAVE_AS = 'news/category/{slug}.html'
+CATEGORY_URL = 'news/category/{slug}.html'
+TAG_SAVE_AS = 'news/tag/{slug}.html'
+TAG_URL = 'news/tag/{slug}.html'
+
+#DIRECT_TEMPLATES = (('index', 'blog/tags', 'blog/categories', 'blog/archives', 'blog/index'))
+PAGINATED_DIRECT_TEMPLATES = (('index', 'news/index', ))
+
+
+
+
