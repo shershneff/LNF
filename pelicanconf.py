@@ -50,8 +50,11 @@ CATEGORY_URL = 'news/category/{slug}.html'
 TAG_SAVE_AS = 'news/tag/{slug}.html'
 TAG_URL = 'news/tag/{slug}.html'
 
-#DIRECT_TEMPLATES = (('index', 'blog/tags', 'blog/categories', 'blog/archives', 'blog/index'))
+DIRECT_TEMPLATES = (('index',))
+#DIRECT_TEMPLATES = (('index', 'news/tags', 'news/categories', 'news/archives', 'news/index'))
 PAGINATED_DIRECT_TEMPLATES = (('index', 'news/index', ))
+
+DEFAULT_PAGE_SLUG = 'about'
 
 
 
