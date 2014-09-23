@@ -1,10 +1,11 @@
 О лаборатории
 #############
 
-
 :order: 1
 :slug: about
 :lang: ru
+
+|
 
 Основной целью настоящего проекта является создание на базе НГУ Лаборатории
 неравновесных течений и аэротермодинамики космических аппаратов под руководством
@@ -24,15 +25,15 @@
 
 .. image:: {filename}/images/nsu.png
  :alt: NSU logo
- :width: 200 px
+ :width: 150 px
  :align: left
 .. image:: {filename}/images/itam_label_navy_rus.png
  :alt: ITAM logo
- :width: 200 px
- :align: right
+ :width: 130 px
+ :align: center
 .. image:: {filename}/images/usc-logo.png
  :alt: USC logo
- :width: 250 px
+ :width: 150 px
  :align: right
 
 

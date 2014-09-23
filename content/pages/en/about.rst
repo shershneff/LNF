@@ -6,6 +6,8 @@ About laboratory
 :slug: about
 :lang: en
 
+|
+
 The principal goal of the project is the establishment of Laboratory of
 Non-Equilibrium Flows and Aerothermodynamics of Space Vehicles at the
 Novosibirsk State University (NSU) under the leadership of Sergey Gimelshein,
@@ -21,15 +23,17 @@ The unifying feature of the wide spectrum of problems under consideration is the
 
 .. image:: {filename}/images/nsu.png
  :alt: NSU logo
- :width: 200 px
+ :width: 150 px
  :align: left
+	
 .. image:: {filename}/images/itam_label_navy_rus.png
  :alt: ITAM logo
- :width: 200 px
+ :width: 130 px
  :align: right
+	
 .. image:: {filename}/images/usc-logo.png
  :alt: USC logo
- :width: 250 px
+ :width: 150 px
  :align: right
 
 

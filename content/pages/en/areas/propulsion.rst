@@ -1,0 +1,97 @@
+Propulsion technologies
+-----------------------
+
+:slug: areas/propulsion
+:status: hidden
+:lang: en
+
+|
+
+Recent trends in the space community for smaller, cheaper and more frequent space 
+missions have driven the development of micro- and nanosatellites. The use of small 
+spacecraft constellations is an attempt to enhance the overall performance of 
+communication and remote sensing tasks currently done by a relatively small number 
+of large platforms. Because micro-technologies have the advantage of reducing the 
+total resources required on a spacecraft, the continued development of micro-technologies 
+for space applications will further enable small satellite missions. Nanosatellites 
+(mass between 1 and 10 kg) impose significant limitations on mass, power and volume
+available for all subsystems including propulsion. In recent years, micropropulsion 
+systems have been developed to address this need. A wide array of concepts will 
+require the expansion of propellant gases through microscale nozzles. Because 
+many micropropulsion systems will also operate at relatively low pressures, the 
+investigation of low-Reynolds-number nozzle and jet flows has become increasingly
+important for realistic evaluation of new concepts.
+
+When in orbit, spacecraft require on-board or secondary propulsion systems to perform 
+orbit transfer, orbit maintenance, and attitude control maneuvers. An important 
+issue in the use of any spacecraft propulsion system involves the assessment and 
+reduction of effects caused by the interaction between the thruster plume and 
+spacecraft surfaces. Direct impingement of a thruster plume on surfaces can generate 
+unwanted torques, localized surface heating, and surface contamination. Self-impingement 
+(i.e. the impingement of a thruster plume on a host satellite surface) generally 
+occurs for small surface angles with respect to the propulsion system’s thrust 
+vector or occurs in the thruster back flow. Cross impingement (i.e. the impingement 
+of one spacecraft’s thruster plume onto another spacecraft) can occur at essentially 
+any angle and is becoming increasingly important with the advent of microsatellite 
+constellations. Although there have been few reported incidents of spacecraft 
+failing because of spacecraft interaction effects from the secondary propulsion 
+system, the tighter margins of contemporary spacecraft operation require improved 
+optimization of all spacecraft systems. Improved assessment of the interaction 
+potential of a thruster may also allow propulsion systems on spacecraft that are 
+extremely sensitive to contamination concerns. Accurate prediction of plume interaction 
+effects is technically challenging. It is very difficult and expensive to recreate 
+the in-orbit environment within a ground-based laboratory facility. In terms of 
+modeling, the flow physics associated with chemical and plasma propulsion systems 
+is complex, requiring the development of advanced numerical techniques. In the past, 
+due to the lack of detailed information, the prevention of the plume effects described 
+here has been achieved primarily using very conservative spacecraft design. In the 
+past few years, significant advances have been made in terms of both experimental 
+facilities and numerical methods for the measurement and computation of the plumes 
+of spacecraft secondary propulsion systems.
+
+Therefore, this is an appropriate time to consider advancing the current state-of-the-art 
+in numerical modeling for this important area of spacecraft design. This proposal 
+seeks to address spacecraft-thruster interaction issues for both chemical and 
+electric propulsion systems. As new thruster technologies are developed, investigations 
+of spacecraft-thruster interactions will continue, and as new spacecraft technologies 
+are developed, these studies will become increasingly important. The present project 
+will involve numerical studies of exhaustion of gas jets of real spacecraft thrusters 
+into vacuum. Such studies are necessary to estimate contamination and the action 
+of these jets both on the spacecraft itself and on another spacecraft during orbital
+docking and undocking. Jet exhaustion occurs in a rapidly changing sequence of flow 
+regimes: from continuum (inside the nozzle) through transitional (near the nozzle 
+exit) to free-molecular (at a large distance from the nozzle exit). The flow is 
+usually in an essentially non-equilibrium state. Numerical investigations will be 
+performed by using two approaches: solving the Navier-Stokes equations inside the 
+nozzle and using the DSMC method outside the nozzle. As the jet is sufficiently 
+dense near the nozzle exit, the DSMC requires significant computational resources 
+(memory and speed). Therefore, it is necessary to use massive parallel computers 
+and a multizone approach where the results of computations in a certain domain 
+around the nozzle are used as the boundary conditions for computations in a greater 
+domain. The flow generated by interaction of several jets will be simulated. Efforts 
+will be put into development of an approximate analytical model which will allow 
+for determination of plume far field parameters using nozzle exit data and to assess 
+the contamination of the spacecraft/satellite surface.
+
+An alternative concept that can be used to fulfill on-orbit propulsion tasks (such 
+as orientation and orbit correction) are electric thrusters. Their basic advantage 
+over thermochemical control engines is a higher jet exhaustion velocity and, 
+correspondingly, a lower flow rate of the working gas at an identical thrust 
+(i.e., a higher specific impulse). One of the major problems of using these engines 
+is the interaction of the plasma jet from the engine with the surfaces of solar 
+arrays, radiators, and other sensitive elements of the space vehicle. A typical 
+feature of the jets of such engines is an extremely high degree of thermal 
+non-equilibrium of the flow, which necessitates the use of the kinetic approach 
+based on the particle-in-cell/DSMC technique. Problems of exhaustion of jets from 
+such engines into the space and interaction of these jets with the vehicle surface 
+will be considered within the framework of this project. In particular, the PIC 
+module for treating the charged particles will be implemented into the proposed 
+DSMC GPU code. A state-of-the-art hydrodynamic model will be employed to simulate 
+electrons while ions will be treated as particles in the conventional 
+particle-in-cell/DSMC fashion. Modeling of the electric thruster plumes and their 
+interaction with a 3D satellite/spacecraft models will be performed in order to 
+assess possible impairment of communication systems, scientific instrumentations 
+and solar arrays. A computational tool for prediction of electric thruster plume/satellite 
+interaction will be developed as a deliverable in the framework of the proposed 
+project. Special attention will be paid to validation of the physical and chemical 
+models of the electric thruster plumes against ground-based experiments.

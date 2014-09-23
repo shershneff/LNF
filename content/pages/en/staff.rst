@@ -1,8 +1,8 @@
-Сотрудники
-##########
+Staff of the laboratory
+#######################
 
 
-:order: 6
+:status: hidden
 :slug: staff
 :lang: en
 

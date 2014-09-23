@@ -2,7 +2,7 @@
 ##########
 
 
-:order: 6
+:status: hidden
 :slug: staff
 :lang: ru
 
