@@ -8,8 +8,8 @@ Tools and facilities
 
 **SMILE software system**
 
-The SMILE
-system is designed for solving non-equilibrium rarefied gas dynamics problems on multiprocessor computers. The system includes a
+The `SMILE <smile.html>`_ software system  is designed for solving non-equilibrium 
+rarefied gas dynamics problems on multiprocessor computers. The system includes a
 preprocessor module for defining a geometric model of the vehicle and specifying boundary and initial conditions, and a postprocessor
 module, providing analysis and visualization of the results of simulations.
 

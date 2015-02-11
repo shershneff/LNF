@@ -1,24 +1,42 @@
 About laboratory
 ################
 
-
 :order: 1
 :slug: about
 :lang: en
 
 |
 
-The principal goal of the project is the establishment of Laboratory of
-Non-Equilibrium Flows and Aerothermodynamics of Space Vehicles at the
-Novosibirsk State University (NSU) under the leadership of Sergey Gimelshein,
-an Astronautics Professor of the University of Southern California (USA).
-The most qualified experts in the field of computational and experimental
-aerodynamics of non-equilibrium flows from NSU and the Khristianovich Institute
-of Theoretical and Applied Mechanics (ITAM) will be involved in the cutting
-edge research that aims at providing the ground for the development of
-breakthrough aerospace technologies.
+Comprehensive study of a number of important research problems is necessary 
+for the development of new generations of space vehicles, such as high-performance 
+launchers, re-entry vehicles, small satellites, and interplanetary spacecraft, 
+to make giant leaps forward. One of the key problems that needs to be addressed 
+is to provide qualitatively better understanding of non-equilibrium flows, and 
+thus drastically improve capabilities available to engineers and scientists for 
+the prediction and analysis of such flows. This problem can be tackled only
+through the combined theoretical, numerical, and experimental research that 
+involves essentially new level of theoretical description and mathematical 
+modeling, the use of the full power of modern computers, improvement of 
+experimental techniques, and application of new diagnostic tools, which 
+will provide much greater detail of the examined flow. Achieving a true 
+synergy of theory, modeling, and experiment, that through the fundamental 
+knowledge becomes basis for new breakthrough space technologies, is the main 
+goal of the Laboratory of Non-Equilibrium Flows and Aerothermodynamics of Space 
+Vehicles, established on the basis of the Novosibirsk State University. 
+The Laboratory is headed by `Sergey Gimelshein <gimelshein.html>`_, 
+an Astronautics Professor of the University of Southern California (USA). 
 
-The unifying feature of the wide spectrum of problems under consideration is the thermal and chemical non-equilibrium of the flow. A pivotal feature of the project is the synergy of theoretical, computational, and experimental work. As a result of its fulfillment, new theoretical models capturing non-equilibrium flow physics and chemistry will be developed, implemented in powerful CFD software systems (including those geared for computations on state-of-the-art hybrid supercomputers), and validated against experiments performed in the framework of the proposed projects. A hallmark of the proposed numerical strategy is the combined application of two different approaches to the description of gas medium, a kinetic approach based on the Boltzmann equation and a continuum approach based on the Navier-Stokes equations and other macroscopic gas models. The strategy will allow the proposers to consider the entire range of flow regimes, and provide a possibility for cross-validation of the numerical approaches for conditions where experimental data is scarce or not available. The establishment of such a laboratory headed by a renowned aerospace scientist and the involvement of highly skilled researchers from the Novosibirsk Scientific Center will provide the unique opportunity for scientific breakthrough in the field of aerophysics of non- equilbrium flows. It will be instrumental in the further development of Novosibirsk State University both as a research and educational institution.
+The Laboratory unites professionally active researchers from the Novosibirsk State 
+University (NSU) and two laboratories, Computational Aerodynamics Laboratory and Laboratory 
+of Physical Problems of Gas-Dynamic Flow Control, of the Khristianovich Institute of 
+Theoretical and Applied Mechanics of the Siberian Branch of the Russian Academy of 
+Sciences (ITAM SB RAS). The Institute has an established, long-term collaboration 
+with NSU through the Chair of Aerophysics and Gas Dynamics of the Physical Department 
+of NSU, which will greatly facilitate the unification. The formation of such a laboratory 
+will allow us to organize high quality, world recognized research in the fields that form 
+the basis of the modern and prospective space engineering, as well as provide an opportunity 
+for professional training of specialists for the Russian space industry, who will be able 
+to learn and use the most advanced computational and experimental methods.
 
 
 .. image:: {filename}/images/nsu.png

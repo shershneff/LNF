@@ -15,25 +15,28 @@ team to establish fundamental physical principles for:
 
 `Prospective spacecraft aerothermodynamics <areas/prospective.html>`_
 
-.. figure:: {filename}/images/pspacecraft.png
+.. figure:: {filename}/images/clipper2.png
  :alt: Spacecraft
  :width: 300 px
  :align: center
 
-This is the caption of the figure.
+*Mach number flowfield around the prospective spacecraft "Clipper" 
+and distribution of the heat transfer coefficient on its surface.*
 
 |
 
-- `Conventional and advanced propulsion technologies that include chemical and electric thrusters <areas/propulsion.html>`_
+`Conventional and advanced propulsion technologies <areas/propulsion.html>`_
 
 .. figure:: {filename}/images/nozzle.png
  :alt: Micronozzle start
  :width: 300 px
  :align: center
 
+*Starting process in micronozzle, numerical simulation based on model kinetic equations.*
+
 |
 
-- `Gaseous and multiphase flows in MEMS <areas/mems.html>`_
+`Gaseous and multiphase flows in MEMS <areas/mems.html>`_
 
 .. figure:: {filename}/images/mphase.png
  :alt: Multiphase
@@ -42,12 +45,14 @@ This is the caption of the figure.
 
 |
 
-- `Instability and transition to turbulence in compressible hypersonic flows <areas/turb.html>`_
+`Instability and transition to turbulence in compressible hypersonic flows <areas/turb.html>`_
 
-.. figure:: {filename}/images/qcrit.png
+.. figure:: {filename}/images/qcrit_alpha.png
  :alt: Qcrit
  :width: 600 px
  :align: center
+
+*Instability of boundary layer on the flat plate at M = 6, isosurfaces of vorticity (Q-criterion).*
 
 |
 
