@@ -1,6 +1,5 @@
-=====================
 SMILE software system
-=====================
+---------------------
 
 :slug: smile
 :status: hidden
@@ -27,3 +26,11 @@ SMILE is registered as a software product in Russia and is currently used in a n
  | Institute of Theoretical and Applied Mechanics SB RAS. 
  | Email: bond@itam.nsc.ru
  | Phone: +7 383 330 81 63. 
+
+
+.. class:: button small
+
+.. class:: myw
+
+`Back <resources.html>`_
+

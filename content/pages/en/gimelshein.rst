@@ -40,18 +40,17 @@ Previous places of employment include:
 
 - Pennsylvania State University, USA
 
- **Sphere of scientific interests:**
+**Sphere of scientific interests:**
  
- | Computational fluid dynamic and hypersonic aerodynamics
- | Statistical simulation of rarefied and near-continuum gas flow with
- | real gas effects
- | Development of new models and algorithms for the DSMC method
- | Laminar separated flows
- | Shock wave reflection phenomena
- | Plume flows
- | Plume interactions and surface contamination
- | Low-speed MEMS flows and flows in micronozzle
- | Kinetic gas theory
- | Physics of molecular energy transfer
- | Chemical reactions in gas phase and on the surface
- | Upper atmosphere radiation processes
+| Computational fluid dynamic and hypersonic aerodynamics
+| Statistical simulation of rarefied and near-continuum gas flow with real gas effects
+| Development of new models and algorithms for the DSMC method
+| Laminar separated flows
+| Shock wave reflection phenomena
+| Plume flows
+| Plume interactions and surface contamination
+| Low-speed MEMS flows and flows in micronozzle
+| Kinetic gas theory
+| Physics of molecular energy transfer
+| Chemical reactions in gas phase and on the surface
+| Upper atmosphere radiation processes

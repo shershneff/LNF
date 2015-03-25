@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="./theme/css/style.css" />
     <link rel="stylesheet" href="./theme/css/pygments.css" />	
     <script src="./theme/js/custom.modernizr.js"></script>
+    <script src="./theme/js/jquery.js"></script>
+    <script src="./theme/js/foundation.js"></script>
+    <script src="./theme/js/foundation.clearing.js"></script>
+
 
 </head>
 
@@ -30,10 +34,11 @@
 <div class="row">
 <div class="large-9 columns">
     <ul class="button-group navigation">
+    <li><a href="/en/workshop.html" class="button secondary small">Workshop 2015</a></li>
 
             <li><a href="./about.html" class="button secondary small">About laboratory</a></li>
             <li><a href="./areas.html" class="button secondary small">Areas of research</a></li>
-            <li><a href="./gimelshein.html" class="button secondary small">Leading Scientist</a></li>
+            <li><a href="./gimelshein.html" class="button secondary small">Leading scientist</a></li>
             <li><a href="./lectures.html" class="button secondary small">Lectures and courses</a></li>
             <li><a href="./pubs.html" class="button secondary small">Publications</a></li>
             <li><a href="./resources.html" class="button secondary small">Tools and facilities</a></li>
@@ -43,7 +48,6 @@
 </nav>
 <!-- End Nav -->
 
-
 <!-- Main Page Content and Sidebar -->
 <div class="row">
 
@@ -51,21 +55,113 @@
     <div class="large-9 columns">
         
     <h3>Lectures and courses</h3>
-    Translations: 
+    <!-- Translations: 
         <a href="./../lectures.html">ru</a>
-
+ -->
+                <a href="./../lectures.html" class="button tiny">ru</a>&nbsp;
     <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p><em>A.N. Kudryavtsev &quot;Introduction to Computational Hydrodynamics&quot;</em></p>
-<div class="line-block">
-<div class="line">&lt;<a class="reference external" href="./pdf/intro.pdf">Intro</a>&gt;       &lt;<a class="reference external" href="./pdf/lect-01.pdf">Lecture 1</a>&gt;   &lt;<a class="reference external" href="./pdf/lect-02.pdf">Lecture 2</a>&gt;   &lt;<a class="reference external" href="./pdf/lect-03.pdf">Lecture 3</a>&gt;   &lt;<a class="reference external" href="./pdf/lect-04.pdf">Lecture 4</a>&gt;   &lt;<a class="reference external" href="./pdf/lect-05.pdf">Lecture 5</a>&gt;</div>
+<dl class="docutils">
+<dt>Kudryavtsev A.N.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <a class="reference external" href="./pdf/kudryavtsev-nmsa-2014.pdf">Modern numerical methods of supersonic gas dynamics (in Russian)</a></div>
 </div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Mironov S.G.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Steady and unsteady gas dynamical processes</em></div>
+<div class="line">— <em>practical work «Measurement of hypersonic flow density using an electron beam»</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Maslov A.A.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Viscous gas dynamics, turbulence and jets</em></div>
+<div class="line">— <em>practical work in research institute</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Poplavskaya T.V.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Computational fluid dynamics: classics and modern times</em></div>
+<div class="line">— <em>practical work «Computational fluid dynamics»</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Zarvin A.Ye.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Methods of research in solid state physics</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Malkov E.A.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Informatics</em></div>
+<div class="line">— <em>Operation systems</em></div>
+<div class="line">— <em>GPU programming</em></div>
+<div class="line">— <em>Software development</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Molchanova A.N.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>ODE course seminars</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Bondar Ye.A.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Physical gas dynamics</em></div>
+</div>
+</dd>
+</dl>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Shoev G.V.</dt>
+<dd><div class="first last line-block">
+<div class="line">— <em>Numerical simulation of viscous heat-conducting gas flows using ANSYS Fluent software</em></div>
+</div>
+</dd>
+</dl>
 
     </div>
     <!-- End Main Content -->
 
+
     <!-- Sidebar -->
+<!-- COMMENT SIDE BAR FOR IT IS COMPLETELY USELESS
     <aside class="large-3 columns">
         <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
@@ -73,19 +169,14 @@
             <li><a href="./tags.html">Tags</a>
         </ul>
 
-		
-        <h5 class="sidebar-title">Categories</h5>
-        <ul class="side-nav">
-            <li><a href="./category/news.html">News</a></li>
-   
-        </ul>
 
 		
 
     </aside> <!-- End Sidebar -->
 
-</div> <!-- End Main Content and Sidebar -->
 
+</div> <!-- End Main Content and Sidebar -->
+</body>
 
 <!-- Footer -->
 <footer class="row">
@@ -98,3 +189,4 @@
             </div>
     </div>
 </footer>
+

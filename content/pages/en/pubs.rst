@@ -7,15 +7,17 @@ Publications
 
 |
 
-1. С.Г. Миронов, А.А. Маслов, И.С. Цырюльников.
-*Управление аэродинамическими силами с помощью газопроницаемых пористых материалов.*
-Письма в ЖТФ, **40**\(19), 83–88 (2014).
+1. S.G. Mironov, A.A. Maslov, I.S. Tsyryulnikov.
+*Controlling Aerodynamic Forces with the Aid of Gas Permeable Porous Materials.*
+Technical Physics Letters, **40**\(10), 868–870 (2014).
+
+.. ISSN 1063-7850
 
 2. С.Г. Миронов Маслов А.А. Поплавская Т.В. Кириловский С.В.
 *Моделирование обтекания газопроницаемого пористого материала в приложении к сверхзвуковой аэродинамике.*
 ПМТФ, 2014.
 
-3. Поплавская Т.В. Маслов А.А. Кириловский С.В. Цырюльников И.С.
+3. Поплавская Т.В., Маслов А.А., Кириловский С.В., Цырюльников И.С.
 *Влияние колебательной релаксации на развитие возмущений в ударном слое на пластине.*
 ЖТФ, 2014.
 
@@ -32,9 +34,9 @@ Int. Journal of Heat and Fluid Flow, 2014.
 *High-accuracy deterministic solution of the Boltzmann equation for the shock wave structure.*
 Shock waves, 2014.
 
-7. А.В. Кашковский, П.В. Ващенков, Т. Баньяй.
-*Моделирование аэродинамики космических аппаратов при взаимодействии струи двигателя управления с атмосферой при спуске.*
-Теплофизика и аэромеханика,  **21**\ (6), 225-234, (2014).
+7. A.V. Kashkovsky, P.V. Vashchenkov, T. Banyai. 
+*Modeling of reentry space vehicle aerodynamics with control thruster plume – free stream interaction.*
+Thermophysics and Aeromechanics, **21**\(6), 239–248 (2014).
 
 8. Н.Г. Коробейщиков, В.В. Каляда, А.А. Шмаков, Г.И. Шульженко.
 *Экспериментальное исследование ускоренных ионно-кластерных пучков аргона.*
@@ -57,3 +59,6 @@ Physics of Fluids, **26**\, 043101 (2014).
 разреженных газовых течений.*
 Вычислительные методы и программирование, **15**\(3), 549–559 (2014).
 
+13. A.A. Shershnev, A.N. Kudryavtsev. 
+*Kinetic simulation of near field of plume exhausting from a plane micronozzle.*
+Microfluid Nanofluid, ISSN 1613-4982, DOI 10.1007/s10404-015-1553-9, 11p (2015).

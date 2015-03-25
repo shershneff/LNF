@@ -3,7 +3,12 @@
 {% block content %}        
     <h3>{{ page.title }}</h3>
     {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
+    <!-- {{ translations.translations_for(page) }} -->
+     {% if page.translations %}
+            {% for translation in page.translations %}
+                <a href="{{ SITEURL }}/{{ translation.url }}" class="button tiny">{{ translation.lang }}</a>&nbsp;
+            {% endfor %}
+        {% endif %}
     {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">PDF</a>{% endif %}
     {{ page.content }}
 {% endblock %}

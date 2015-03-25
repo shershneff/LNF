@@ -84,3 +84,9 @@ and computational investigations, the effectiveness of suppression of pulsations
 with sound-absorbing coating surface taking into account of real gas effects will 
 be determined and the most effective sound-absorbing materials will be chosen.
 
+.. class:: button small
+
+.. class:: myw
+
+`Back <../areas.html>`_
+

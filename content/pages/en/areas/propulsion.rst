@@ -95,3 +95,10 @@ and solar arrays. A computational tool for prediction of electric thruster plume
 interaction will be developed as a deliverable in the framework of the proposed 
 project. Special attention will be paid to validation of the physical and chemical 
 models of the electric thruster plumes against ground-based experiments.
+
+
+.. class:: button small
+
+.. class:: myw
+
+`Back <../areas.html>`_

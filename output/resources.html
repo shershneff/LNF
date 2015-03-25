@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="./theme/css/style.css" />
     <link rel="stylesheet" href="./theme/css/pygments.css" />	
     <script src="./theme/js/custom.modernizr.js"></script>
+    <script src="./theme/js/jquery.js"></script>
+    <script src="./theme/js/foundation.js"></script>
+    <script src="./theme/js/foundation.clearing.js"></script>
+
 
 </head>
 
@@ -30,6 +34,7 @@
 <div class="row">
 <div class="large-9 columns">
     <ul class="button-group navigation">
+    <li><a href="/en/workshop.html" class="button secondary small">Workshop 2015</a></li>
 
             <li><a href="./about.html" class="button secondary small">О лаборатории</a></li>
             <li><a href="./areas.html" class="button secondary small">Направления исследований</a></li>
@@ -43,7 +48,6 @@
 </nav>
 <!-- End Nav -->
 
-
 <!-- Main Page Content and Sidebar -->
 <div class="row">
 
@@ -51,14 +55,15 @@
     <div class="large-9 columns">
         
     <h3>Материальная база</h3>
-    Translations: 
+    <!-- Translations: 
         <a href="./en/resources.html">en</a>
-
+ -->
+                <a href="./en/resources.html" class="button tiny">en</a>&nbsp;
     <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p><strong>Программный комплекс SMILE</strong></p>
-<p>Система SMILE предназначена для моделирования неравновесных течений разреженного газа на
+<p>Система <a class="reference external" href="smile.html">SMILE</a> предназначена для моделирования неравновесных течений разреженного газа на
 многопроцессорных компьютерах. Данная система включает препроцессорный модуль, позволяющий задавать геометрическую
 модель космического аппарата и специфицировать граничные и начальные условия, и постпроцессорный модуль,
 обеспечивающий анализ и визуализацию результатов моделирования.</p>
@@ -67,7 +72,7 @@
 </div>
 <p><strong>Гиперзвуковая аэродинамическая импульсная труба ИТ-302М</strong></p>
 <p>Эта уникальная гиперзвуковая установка позволяет проводить эксперименты трубе при числе Маха
-M = 5-12 и температурах торможения потока до 3000-4000К, т. е. в условиях приближенных к реальному полету. Последнее
+M = 5÷12 и температурах торможения потока до 3000-4000К, т. е. в условиях приближенных к реальному полету. Последнее
 является совершенно необходимым в исследованиях, нацеленных на разработку перспективной авиационно-космической
 техники. Традиционные сверхзвуковые аэродинамические трубы непрерывного действия не могут обеспечить необходимых
 значений чисел Рейнольдса и температур торможения из-за высоких тепловых нагрузок в тракте трубы. В импульсных
@@ -119,7 +124,9 @@ M = 5-12 и температурах торможения потока до 3000
     </div>
     <!-- End Main Content -->
 
+
     <!-- Sidebar -->
+<!-- COMMENT SIDE BAR FOR IT IS COMPLETELY USELESS
     <aside class="large-3 columns">
         <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
@@ -132,8 +139,9 @@ M = 5-12 и температурах торможения потока до 3000
 
     </aside> <!-- End Sidebar -->
 
-</div> <!-- End Main Content and Sidebar -->
 
+</div> <!-- End Main Content and Sidebar -->
+</body>
 
 <!-- Footer -->
 <footer class="row">
@@ -146,3 +154,4 @@ M = 5-12 и температурах торможения потока до 3000
             </div>
     </div>
 </footer>
+

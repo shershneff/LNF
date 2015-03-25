@@ -17,7 +17,7 @@ module, providing analysis and visualization of the results of simulations.
 
 **Hypersonic impulse wind tunnel IT-302M**
 
-This unique hypersonic facility allows us to perform experiments at Mach numbers M = 5-12 and stagnation
+This unique hypersonic facility allows us to perform experiments at Mach numbers M = 5÷12 and stagnation
 temperatures up to 3000-4000K, i. e. at conditions close to the real flight. This is indispensable in studies aimed at developing advanced
 aerospace technologies. Conventional supersonic wind tunnels cannot provide the necessary values of the Reynolds number and the
 stagnation temperature because of high thermal loads in the wind tunnel channel. In impulse wind tunnels due to the short running time

@@ -9,7 +9,7 @@ Lectures and courses
 |
 
 Kudryavtsev A.N. 
-  | — `Modern numerical methods of supersonic gas dynamics <{filename}/pdf/kudryavtsev-nmsa-2014.pdf>`_
+  | — `Modern numerical methods of supersonic gas dynamics (in Russian) <{filename}/pdf/kudryavtsev-nmsa-2014.pdf>`_
 
 |  
 

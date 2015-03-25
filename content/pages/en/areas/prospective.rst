@@ -78,3 +78,10 @@ porosity will be used as gas-permeable materials. Experimental studies will be
 complemented by numerical simulations. In particular, parametric calculations will 
 be carried out to find the optimal structure of the materials and the internal 
 temperature field.
+
+
+.. class:: button small
+
+.. class:: myw
+
+`Back <../areas.html>`_

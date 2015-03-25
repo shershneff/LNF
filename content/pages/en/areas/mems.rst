@@ -89,3 +89,10 @@ development and numerical implementation of collision models and algorithms for
 the description of the kinetic mechanism for a hydrogen-oxygen mixture in the 
 DSMC method will be carried out. In particular, recombination processes that 
 require simulations of ternary collisions will be considered in detail.
+
+
+.. class:: button small
+
+.. class:: myw
+
+`Back <../areas.html>`_

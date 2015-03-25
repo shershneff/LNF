@@ -1,5 +1,5 @@
 /* Misc */
-body { word-wrap:break-word; text-align: justify;}
+body { word-wrap:break-word;} /*text-align: justify;*/
 
 ol li ul, ol li ol { 
 margin-bottom: 1.25em;
@@ -70,3 +70,24 @@ background: #073642;
 padding: 1em;
 overflow: auto;
 }
+
+
+.large-text {
+
+font-size: 18px;
+
+}
+
+.llarge-text {
+
+font-size: 23px;
+
+}
+
+/* unvisited link */
+
+
+.myw a:link{
+    color:#FFFFFF;
+}
+

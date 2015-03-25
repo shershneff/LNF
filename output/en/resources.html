@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="./theme/css/style.css" />
     <link rel="stylesheet" href="./theme/css/pygments.css" />	
     <script src="./theme/js/custom.modernizr.js"></script>
+    <script src="./theme/js/jquery.js"></script>
+    <script src="./theme/js/foundation.js"></script>
+    <script src="./theme/js/foundation.clearing.js"></script>
+
 
 </head>
 
@@ -30,10 +34,11 @@
 <div class="row">
 <div class="large-9 columns">
     <ul class="button-group navigation">
+    <li><a href="/en/workshop.html" class="button secondary small">Workshop 2015</a></li>
 
             <li><a href="./about.html" class="button secondary small">About laboratory</a></li>
             <li><a href="./areas.html" class="button secondary small">Areas of research</a></li>
-            <li><a href="./gimelshein.html" class="button secondary small">Leading Scientist</a></li>
+            <li><a href="./gimelshein.html" class="button secondary small">Leading scientist</a></li>
             <li><a href="./lectures.html" class="button secondary small">Lectures and courses</a></li>
             <li><a href="./pubs.html" class="button secondary small">Publications</a></li>
             <li><a href="./resources.html" class="button secondary small">Tools and facilities</a></li>
@@ -43,7 +48,6 @@
 </nav>
 <!-- End Nav -->
 
-
 <!-- Main Page Content and Sidebar -->
 <div class="row">
 
@@ -51,22 +55,23 @@
     <div class="large-9 columns">
         
     <h3>Tools and facilities</h3>
-    Translations: 
+    <!-- Translations: 
         <a href="./../resources.html">ru</a>
-
+ -->
+                <a href="./../resources.html" class="button tiny">ru</a>&nbsp;
     <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p><strong>SMILE software system</strong></p>
-<p>The SMILE
-system is designed for solving non-equilibrium rarefied gas dynamics problems on multiprocessor computers. The system includes a
+<p>The <a class="reference external" href="smile.html">SMILE</a> software system  is designed for solving non-equilibrium
+rarefied gas dynamics problems on multiprocessor computers. The system includes a
 preprocessor module for defining a geometric model of the vehicle and specifying boundary and initial conditions, and a postprocessor
 module, providing analysis and visualization of the results of simulations.</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p><strong>Hypersonic impulse wind tunnel IT-302M</strong></p>
-<p>This unique hypersonic facility allows us to perform experiments at Mach numbers M = 5-12 and stagnation
+<p>This unique hypersonic facility allows us to perform experiments at Mach numbers M = 5÷12 and stagnation
 temperatures up to 3000-4000K, i. e. at conditions close to the real flight. This is indispensable in studies aimed at developing advanced
 aerospace technologies. Conventional supersonic wind tunnels cannot provide the necessary values of the Reynolds number and the
 stagnation temperature because of high thermal loads in the wind tunnel channel. In impulse wind tunnels due to the short running time
@@ -109,7 +114,9 @@ densities and mass rates and allow us to form non-equilibrium rarefied gas flows
     </div>
     <!-- End Main Content -->
 
+
     <!-- Sidebar -->
+<!-- COMMENT SIDE BAR FOR IT IS COMPLETELY USELESS
     <aside class="large-3 columns">
         <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
@@ -117,19 +124,14 @@ densities and mass rates and allow us to form non-equilibrium rarefied gas flows
             <li><a href="./tags.html">Tags</a>
         </ul>
 
-		
-        <h5 class="sidebar-title">Categories</h5>
-        <ul class="side-nav">
-            <li><a href="./category/news.html">News</a></li>
-   
-        </ul>
 
 		
 
     </aside> <!-- End Sidebar -->
 
-</div> <!-- End Main Content and Sidebar -->
 
+</div> <!-- End Main Content and Sidebar -->
+</body>
 
 <!-- Footer -->
 <footer class="row">
@@ -142,3 +144,4 @@ densities and mass rates and allow us to form non-equilibrium rarefied gas flows
             </div>
     </div>
 </footer>
+
