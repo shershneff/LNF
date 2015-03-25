@@ -6,7 +6,6 @@ from pelican.readers import BaseReader
 AUTHOR = u'ЛНТ'
 SITENAME = u'Лаборатория неравновесных течений'
 SITEURL = ''
-
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'ru'
@@ -31,31 +30,46 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-STATIC_PATHS = ["images","pdf","mytheme"]
-#THEME = "/home/Antony/Site/pelican-themes-master/Just-Read"
-THEME = "mytheme"
+STATIC_PATHS = ["images","pdf","themes","plugins"]
+THEME = "themes/tuxlite-light"
 
-ARTICLE_DIR = 'news'
-ARTICLE_URL = 'news/{slug}.html'
-ARTICLE_SAVE_AS = 'news/{slug}.html'
+
+#ARTICLE_DIR = 'news'
+#ARTICLE_URL = 'news/{slug}.html'
+#ARTICLE_SAVE_AS = 'news/{slug}.html'
 
 
 PAGE_DIR = 'pages'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
+DEFAULT_PAGE_SLUG = 'about'
 
 AUTHOR_SAVE_AS = False
-CATEGORY_SAVE_AS = 'news/category/{slug}.html'
-CATEGORY_URL = 'news/category/{slug}.html'
-TAG_SAVE_AS = 'news/tag/{slug}.html'
-TAG_URL = 'news/tag/{slug}.html'
+#CATEGORY_SAVE_AS = 'news/category/{slug}.html'
+#CATEGORY_URL = 'news/category/{slug}.html'
+#TAG_SAVE_AS = 'news/tag/{slug}.html'
+#TAG_URL = 'news/tag/{slug}.html'
 
 DIRECT_TEMPLATES = (('index',))
 #DIRECT_TEMPLATES = (('index', 'news/tags', 'news/categories', 'news/archives', 'news/index'))
-PAGINATED_DIRECT_TEMPLATES = (('index', 'news/index', ))
+PAGINATED_DIRECT_TEMPLATES = (('index',))
 
 DEFAULT_PAGE_SLUG = 'about'
+MENUITEMS = [('Workshop 2015', '/en/workshop.html')]
 
 
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ['i18n_subsites',]
+MAIN_LANG = 'ru'
+I18N_SUBSITES = {
+    'en': {
+           'SITENAME' : 'Laboratory of Nonequilibrium Flows                                        ',
+           'AUTHOR' : 'LNF',
+          }
+#    'ru': {
+#           'SITENAME' : 'Лаборатория неравновесных течений',
+#           'AUTHOR' : 'ЛНТ',
+#          }
+    }
 
-
+#
